@@ -26,9 +26,6 @@ class HomePage:
     # After this method we are going to UserHomePage, so we are returning that page here
     # by doing click action here only and creating object of UserHomePage here
     def click_login(self):
-         self.driver.find_element(*HomePage.Login_Button).click()
-         UHP = UserHomePage(self.driver)
-         return UHP
-
-
-
+        self.driver.find_element(*HomePage.Login_Button).click()
+        UHP = UserHomePage(self.driver)
+        return UHP

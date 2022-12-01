@@ -1,5 +1,7 @@
 from selenium.webdriver.common.by import By
 
+from PageObjects.Add_Employee import Add_Employee
+
 
 class UserHomePage:
 
@@ -7,12 +9,14 @@ class UserHomePage:
         self.driver = driver
 
     # Locators
-    Admin_Link = (By.XPATH, "//span[text()= 'Admin']")
+    PIM_Link = (By.XPATH, "//span[text()= 'PIM']")
     Add_Employee_Button = (By.XPATH, "//button[@class='oxd-button oxd-button--medium oxd-button--secondary']")
 
     # Methods
-    def admin_link(self):
-        return self.driver.find_element(*UserHomePage.Admin_Link)
+    def pim_link(self):
+        return self.driver.find_element(*UserHomePage.PIM_Link)
 
     def add_employee_button(self):
-        return self.driver.find_element(*UserHomePage.Add_Employee_Button)
+        self.driver.find_element(*UserHomePage.Add_Employee_Button).click()
+        AE = Add_Employee(self.driver)
+        return AE  # returning this because after clicking add it will redirect to employee add page
