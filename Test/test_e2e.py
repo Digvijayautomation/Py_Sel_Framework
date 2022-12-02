@@ -1,9 +1,9 @@
 import pytest
 
 from PageObjects.HomePage import HomePage
-from TestData import testdataexcel
+from TestData import test_dataexcel
 from TestData.test_data import test_data
-from TestData.testdataexcel import testdataexcel
+from TestData.test_dataexcel import testdataexcel
 from Utilities.BaseClass import BaseClass
 
 
@@ -51,6 +51,6 @@ class TestMain(BaseClass):
         return request.param
 
 # Data from Dict(test_data_using_excel)
-#   @pytest.fixture(params=testdataexcel.excel_test_data("T1"))  # we can import that class And the name of test case which we want to run
-#   def getdata(self, request):
-#       return request.param
+#     @pytest.fixture(params=testdataexcel.data_excel("T1"))  # we can import that class And the name of test case which we want to run
+#     def getdata(self, request):
+#      return request.param
