@@ -1,0 +1,12 @@
+
+#Passing browser value from command line(if not, then it will run on default browser)
+--browser_name edge
+
+#For Generating Html Report
+--html=report.html
+
+#For Generating XML Report
+-v --junitxml=report.xml
+
+#If you want to attach log to html file
+--capture=tee-sys
