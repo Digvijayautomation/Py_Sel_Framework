@@ -46,11 +46,11 @@ class TestMain(BaseClass):
     # We can pass multiple sets of data also (valid and invalid)
 
     # Data from Dict(test_data)
-    @pytest.fixture(params=test_data.testdata)  # we can import that class
-    def getdata(self, request):
-        return request.param
+    # @pytest.fixture(params=test_data.testdata)  # we can import that class
+    # def getdata(self, request):
+    #     return request.param
 
 # Data from Dict(test_data_using_excel)
-#     @pytest.fixture(params=testdataexcel.data_excel("T1"))  # we can import that class And the name of test case which we want to run
-#     def getdata(self, request):
-#      return request.param
+    @pytest.fixture(params=testdataexcel.data_excel("T1"))  # we can import that class And the name of test case which we want to run
+    def getdata(self, request):
+       return request.param

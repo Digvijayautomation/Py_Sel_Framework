@@ -70,3 +70,43 @@
 2022-12-02 18:41:37,434 :INFO :test_login :Password Send
 2022-12-02 18:41:38,171 :INFO :test_login :Login Button Clicked
 2022-12-02 18:41:38,171 :INFO :test_login :Login Button Clicked
+2022-12-02 18:44:05,432 :INFO :test_login :Username Send
+2022-12-02 18:44:05,506 :INFO :test_login :Password Send
+2022-12-02 18:44:05,560 :INFO :test_login :Login Button Clicked
+2022-12-02 18:44:08,144 :INFO :test_login :PIM Link Clicked
+2022-12-02 18:44:11,315 :INFO :test_login :Username Send
+2022-12-02 18:44:11,315 :INFO :test_login :Username Send
+2022-12-02 18:44:11,369 :INFO :test_login :Password Send
+2022-12-02 18:44:11,369 :INFO :test_login :Password Send
+2022-12-02 18:44:11,395 :INFO :test_login :Login Button Clicked
+2022-12-02 18:44:11,395 :INFO :test_login :Login Button Clicked
+2022-12-03 19:02:49,989 :INFO :test_login :Username Send
+2022-12-03 19:02:50,081 :INFO :test_login :Password Send
+2022-12-03 19:02:51,189 :INFO :test_login :Login Button Clicked
+2022-12-03 19:02:52,584 :INFO :test_login :PIM Link Clicked
+2022-12-03 19:02:55,917 :INFO :test_login :Username Send
+2022-12-03 19:02:55,917 :INFO :test_login :Username Send
+2022-12-03 19:02:55,976 :INFO :test_login :Password Send
+2022-12-03 19:02:55,976 :INFO :test_login :Password Send
+2022-12-03 19:02:56,010 :INFO :test_login :Login Button Clicked
+2022-12-03 19:02:56,010 :INFO :test_login :Login Button Clicked
+2022-12-08 18:50:42,794 :INFO :test_login :Username Send
+2022-12-08 18:50:42,889 :INFO :test_login :Password Send
+2022-12-08 18:50:42,956 :INFO :test_login :Login Button Clicked
+2022-12-08 18:50:45,615 :INFO :test_login :PIM Link Clicked
+2022-12-08 18:50:49,126 :INFO :test_login :Username Send
+2022-12-08 18:50:49,126 :INFO :test_login :Username Send
+2022-12-08 18:50:49,182 :INFO :test_login :Password Send
+2022-12-08 18:50:49,182 :INFO :test_login :Password Send
+2022-12-08 18:50:49,212 :INFO :test_login :Login Button Clicked
+2022-12-08 18:50:49,212 :INFO :test_login :Login Button Clicked
+2022-12-08 18:52:46,558 :INFO :test_login :Username Send
+2022-12-08 18:52:46,642 :INFO :test_login :Password Send
+2022-12-08 18:52:46,692 :INFO :test_login :Login Button Clicked
+2022-12-08 18:53:36,133 :INFO :test_login :Username Send
+2022-12-08 18:53:36,210 :INFO :test_login :Password Send
+2022-12-08 18:53:36,255 :INFO :test_login :Login Button Clicked
+2022-12-08 18:54:09,352 :INFO :test_login :Username Send
+2022-12-08 18:54:09,440 :INFO :test_login :Password Send
+2022-12-08 18:54:09,519 :INFO :test_login :Login Button Clicked
+2022-12-08 18:54:12,486 :INFO :test_login :PIM Link Clicked
