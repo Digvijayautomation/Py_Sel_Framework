@@ -2,14 +2,14 @@ import openpyxl
 
 
 # We are fetching the data from excel and storing it to the dict
-class testdataexcel:
+class Testdataexcel:
 
     @staticmethod
     def data_excel(testcase):
 
         dict = {}  # Empty Dictonary
 
-        workbook = openpyxl.load_workbook("C://Users//digvi//PycharmProjects//Py_Sel_Framework//TestData//TestData.xlsx")
+        workbook = openpyxl.load_workbook("C://Users//digvijayt//PycharmProjects//Py_Sel_Framework//TestData//TestData.xlsx")
         sheet = workbook.active
 
         for i in range(1, sheet.max_row + 1):  # +1 because it will return max-1
