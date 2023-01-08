@@ -19,7 +19,7 @@ def setup(request):
 
     browser_name = request.config.getoption("browser_name")
     if browser_name == "chrome":
-        driver = webdriver.Chrome()  # From selenium version 4.6 we can use it directly
+        driver = webdriver.Chrome()  # From selenium version 4 we can use it directly
         driver.implicitly_wait(10)
 
     elif browser_name == "edge":
@@ -36,13 +36,10 @@ def setup(request):
 
     # Code for attaching screenshot of failed test cases to html report
 
-    def _capture_screenshot(name):
-        driver.get_screenshot_as_file(name)
-
     @pytest.mark.hookwrapper
-    def pytest_runtest_makereport(item,):
+    def pytest_runtest_makereport(item):
         """
-           Extends the PyTest Plugin to take and embed screenshot in html report, whenever test fails.
+            Extends the PyTest Plugin to take and embed screenshot in html report, whenever test fails.
             :param item:
             """
         pytest_html = item.config.pluginmanager.getplugin('html')
@@ -54,11 +51,12 @@ def setup(request):
             xfail = hasattr(report, 'wasxfail')
             if (report.skipped and xfail) or (report.failed and not xfail):
                 file_name = report.nodeid.replace("::", "_") + ".png"
-                _capture_screenshot(file_name)
+                capture_screenshot(file_name)
                 if file_name:
                     html = '<div><img src="%s" alt="screenshot" style="width:304px;height:228px;" ' \
                            'onclick="window.open(this.src)" align="right"/></div>' % file_name
                     extra.append(pytest_html.extras.html(html))
             report.extra = extra
 
-
+    def capture_screenshot(name):
+        driver.get_screenshot_as_file(name)

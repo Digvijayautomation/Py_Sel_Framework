@@ -1,0 +1,116 @@
+2023-01-05 16:26:27,010 :INFO :test_login :Username Send
+2023-01-05 16:26:27,119 :INFO :test_login :Password Send
+2023-01-05 16:26:27,182 :INFO :test_login :Login Button Clicked
+2023-01-05 16:26:30,035 :INFO :test_login :PIM Link Clicked
+2023-01-05 16:26:31,357 :INFO :test_login :Add Employee Clicked
+2023-01-05 16:26:31,915 :INFO :test_login :Entered First Name
+2023-01-05 16:26:31,984 :INFO :test_login :Entered Middle Name
+2023-01-05 16:26:32,045 :INFO :test_login :Entered Last Name
+2023-01-05 16:26:32,887 :INFO :test_login :Clicked submit
+2023-01-05 16:26:32,951 :INFO :test_login :Clicked Logout Tab
+2023-01-05 16:26:33,776 :INFO :test_login :Clicked Logout Link
+2023-01-05 16:26:34,154 :INFO :test_login :Username Send
+2023-01-05 16:26:34,154 :INFO :test_login :Username Send
+2023-01-05 16:26:34,216 :INFO :test_login :Password Send
+2023-01-05 16:26:34,216 :INFO :test_login :Password Send
+2023-01-05 16:26:34,242 :INFO :test_login :Login Button Clicked
+2023-01-05 16:26:34,242 :INFO :test_login :Login Button Clicked
+2023-01-05 16:26:45,085 :INFO :test_login :Username Send
+2023-01-05 16:26:45,085 :INFO :test_login :Username Send
+2023-01-05 16:26:45,085 :INFO :test_login :Username Send
+2023-01-05 16:26:45,143 :INFO :test_login :Password Send
+2023-01-05 16:26:45,143 :INFO :test_login :Password Send
+2023-01-05 16:26:45,143 :INFO :test_login :Password Send
+2023-01-05 16:26:45,184 :INFO :test_login :Login Button Clicked
+2023-01-05 16:26:45,184 :INFO :test_login :Login Button Clicked
+2023-01-05 16:26:45,184 :INFO :test_login :Login Button Clicked
+2023-01-05 16:26:56,048 :INFO :test_login :Username Send
+2023-01-05 16:26:56,048 :INFO :test_login :Username Send
+2023-01-05 16:26:56,048 :INFO :test_login :Username Send
+2023-01-05 16:26:56,048 :INFO :test_login :Username Send
+2023-01-05 16:26:56,108 :INFO :test_login :Password Send
+2023-01-05 16:26:56,108 :INFO :test_login :Password Send
+2023-01-05 16:26:56,108 :INFO :test_login :Password Send
+2023-01-05 16:26:56,108 :INFO :test_login :Password Send
+2023-01-05 16:26:56,148 :INFO :test_login :Login Button Clicked
+2023-01-05 16:26:56,148 :INFO :test_login :Login Button Clicked
+2023-01-05 16:26:56,148 :INFO :test_login :Login Button Clicked
+2023-01-05 16:26:56,148 :INFO :test_login :Login Button Clicked
+2023-01-05 16:27:06,966 :INFO :test_login :Username Send
+2023-01-05 16:27:06,966 :INFO :test_login :Username Send
+2023-01-05 16:27:06,966 :INFO :test_login :Username Send
+2023-01-05 16:27:06,966 :INFO :test_login :Username Send
+2023-01-05 16:27:06,966 :INFO :test_login :Username Send
+2023-01-05 16:27:07,023 :INFO :test_login :Password Send
+2023-01-05 16:27:07,023 :INFO :test_login :Password Send
+2023-01-05 16:27:07,023 :INFO :test_login :Password Send
+2023-01-05 16:27:07,023 :INFO :test_login :Password Send
+2023-01-05 16:27:07,023 :INFO :test_login :Password Send
+2023-01-05 16:27:07,064 :INFO :test_login :Login Button Clicked
+2023-01-05 16:27:07,064 :INFO :test_login :Login Button Clicked
+2023-01-05 16:27:07,064 :INFO :test_login :Login Button Clicked
+2023-01-05 16:27:07,064 :INFO :test_login :Login Button Clicked
+2023-01-05 16:27:07,064 :INFO :test_login :Login Button Clicked
+2023-01-05 16:27:17,873 :INFO :test_login :Username Send
+2023-01-05 16:27:17,873 :INFO :test_login :Username Send
+2023-01-05 16:27:17,873 :INFO :test_login :Username Send
+2023-01-05 16:27:17,873 :INFO :test_login :Username Send
+2023-01-05 16:27:17,873 :INFO :test_login :Username Send
+2023-01-05 16:27:17,873 :INFO :test_login :Username Send
+2023-01-05 16:27:17,928 :INFO :test_login :Password Send
+2023-01-05 16:27:17,928 :INFO :test_login :Password Send
+2023-01-05 16:27:17,928 :INFO :test_login :Password Send
+2023-01-05 16:27:17,928 :INFO :test_login :Password Send
+2023-01-05 16:27:17,928 :INFO :test_login :Password Send
+2023-01-05 16:27:17,928 :INFO :test_login :Password Send
+2023-01-05 16:27:17,973 :INFO :test_login :Login Button Clicked
+2023-01-05 16:27:17,973 :INFO :test_login :Login Button Clicked
+2023-01-05 16:27:17,973 :INFO :test_login :Login Button Clicked
+2023-01-05 16:27:17,973 :INFO :test_login :Login Button Clicked
+2023-01-05 16:27:17,973 :INFO :test_login :Login Button Clicked
+2023-01-05 16:27:17,973 :INFO :test_login :Login Button Clicked
+2023-01-05 16:27:29,125 :INFO :test_login :Username Send
+2023-01-05 16:27:29,125 :INFO :test_login :Username Send
+2023-01-05 16:27:29,125 :INFO :test_login :Username Send
+2023-01-05 16:27:29,125 :INFO :test_login :Username Send
+2023-01-05 16:27:29,125 :INFO :test_login :Username Send
+2023-01-05 16:27:29,125 :INFO :test_login :Username Send
+2023-01-05 16:27:29,125 :INFO :test_login :Username Send
+2023-01-05 16:27:29,189 :INFO :test_login :Password Send
+2023-01-05 16:27:29,189 :INFO :test_login :Password Send
+2023-01-05 16:27:29,189 :INFO :test_login :Password Send
+2023-01-05 16:27:29,189 :INFO :test_login :Password Send
+2023-01-05 16:27:29,189 :INFO :test_login :Password Send
+2023-01-05 16:27:29,189 :INFO :test_login :Password Send
+2023-01-05 16:27:29,189 :INFO :test_login :Password Send
+2023-01-05 16:27:29,229 :INFO :test_login :Login Button Clicked
+2023-01-05 16:27:29,229 :INFO :test_login :Login Button Clicked
+2023-01-05 16:27:29,229 :INFO :test_login :Login Button Clicked
+2023-01-05 16:27:29,229 :INFO :test_login :Login Button Clicked
+2023-01-05 16:27:29,229 :INFO :test_login :Login Button Clicked
+2023-01-05 16:27:29,229 :INFO :test_login :Login Button Clicked
+2023-01-05 16:27:29,229 :INFO :test_login :Login Button Clicked
+2023-01-05 16:27:40,058 :INFO :test_login :Username Send
+2023-01-05 16:27:40,058 :INFO :test_login :Username Send
+2023-01-05 16:27:40,058 :INFO :test_login :Username Send
+2023-01-05 16:27:40,058 :INFO :test_login :Username Send
+2023-01-05 16:27:40,058 :INFO :test_login :Username Send
+2023-01-05 16:27:40,058 :INFO :test_login :Username Send
+2023-01-05 16:27:40,058 :INFO :test_login :Username Send
+2023-01-05 16:27:40,058 :INFO :test_login :Username Send
+2023-01-05 16:27:40,113 :INFO :test_login :Password Send
+2023-01-05 16:27:40,113 :INFO :test_login :Password Send
+2023-01-05 16:27:40,113 :INFO :test_login :Password Send
+2023-01-05 16:27:40,113 :INFO :test_login :Password Send
+2023-01-05 16:27:40,113 :INFO :test_login :Password Send
+2023-01-05 16:27:40,113 :INFO :test_login :Password Send
+2023-01-05 16:27:40,113 :INFO :test_login :Password Send
+2023-01-05 16:27:40,113 :INFO :test_login :Password Send
+2023-01-05 16:27:40,158 :INFO :test_login :Login Button Clicked
+2023-01-05 16:27:40,158 :INFO :test_login :Login Button Clicked
+2023-01-05 16:27:40,158 :INFO :test_login :Login Button Clicked
+2023-01-05 16:27:40,158 :INFO :test_login :Login Button Clicked
+2023-01-05 16:27:40,158 :INFO :test_login :Login Button Clicked
+2023-01-05 16:27:40,158 :INFO :test_login :Login Button Clicked
+2023-01-05 16:27:40,158 :INFO :test_login :Login Button Clicked
+2023-01-05 16:27:40,158 :INFO :test_login :Login Button Clicked
