@@ -7,22 +7,5 @@ class test_data:
                  "mname": "Tukaram",
                  "lname": "Tikka"
                  },
-                {"username": "xyz",
-                 "password": "admin123",
-                 "fname": "Digvijay",
-                 "mname": "Tukaram",
-                 "lname": "Tikka"
-                 },
-                {"username": "dhgdj",
-                 "password": "admin123",
-                 "fname": "Digvijay",
-                 "mname": "Tukaram",
-                 "lname": "Tikka"
-                 },
-                {"username": "xjhgjgdjyzss",
-                 "password": "admin123",
-                 "fname": "Digvijay",
-                 "mname": "Tukaram",
-                 "lname": "Tikka"
-                 }
+
                 ]

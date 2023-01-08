@@ -21,15 +21,13 @@ class TestMain(BaseClass):
 
         # Passing Methods From HomePage, And Doing Actions On Them As Per The Need
         HP.send_username().send_keys(getdata["username"])
-        log.info("Username Send")
+        log.info("Username Entered as:"+ getdata["username"])
 
         HP.send_password().send_keys(getdata["password"])
-        log.info("Password Send")
+        log.info("Password Entered as:"+ getdata["password"])
 
         UHP = HP.click_login()  # Click is done in page object, and returned object of UserHomePage
         log.info("Login Button Clicked")
-
-
 
         UHP.pim_link().click()
         log.info("PIM Link Clicked")

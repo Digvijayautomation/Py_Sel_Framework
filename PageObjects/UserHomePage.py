@@ -13,6 +13,8 @@ class UserHomePage:
     Add_Employee_Button = (By.XPATH, "//button[@class='oxd-button oxd-button--medium oxd-button--secondary']")
 
     # Methods
+    def pim_link_text(self):
+        return self.driver.find_element(*UserHomePage.PIM_Link).text
     def pim_link(self):
         return self.driver.find_element(*UserHomePage.PIM_Link)
 
