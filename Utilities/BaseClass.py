@@ -25,6 +25,9 @@ class BaseClass:
         wait = WebDriverWait(self.driver, 10)
         wait.until(expected_conditions.element_to_be_clickable((By.XPATH, element)))
 
+    def take_screenshot(self,ss_name):
+        self.driver.save_screenshot(ss_name)
+
     # Method for the logger functionality
     def get_logger(self):
         loggername = inspect.stack()[1][3]

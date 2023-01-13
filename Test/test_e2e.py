@@ -1,6 +1,7 @@
 import pytest
 
 from PageObjects.HomePage import HomePage
+from Test.conftest import driver
 from TestData import test_dataexcel
 from TestData.test_data import test_data
 from TestData.test_dataexcel import Testdataexcel
@@ -21,10 +22,12 @@ class TestMain(BaseClass):
 
         # Passing Methods From HomePage, And Doing Actions On Them As Per The Need
         HP.send_username().send_keys(getdata["username"])
-        log.info("Username Entered as:"+ getdata["username"])
+        # self.take_screenshot("username_entered.png")
+        log.info("Username Entered as:" + getdata["username"])
 
         HP.send_password().send_keys(getdata["password"])
-        log.info("Password Entered as:"+ getdata["password"])
+        # self.take_screenshot("password_entered.png")
+        log.info("Password Entered as:" + getdata["password"])
 
         UHP = HP.click_login()  # Click is done in page object, and returned object of UserHomePage
         log.info("Login Button Clicked")

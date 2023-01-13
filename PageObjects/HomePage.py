@@ -20,6 +20,7 @@ class HomePage:
     def send_username(self):
         return self.driver.find_element(*HomePage.Username)
 
+
     def send_password(self):
         return self.driver.find_element(*HomePage.Password)
 

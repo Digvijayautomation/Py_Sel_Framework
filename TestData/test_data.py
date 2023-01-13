@@ -7,5 +7,13 @@ class test_data:
                  "mname": "Tukaram",
                  "lname": "Tikka"
                  },
+                {
+                 "username": "Admsssin",
+                 "password": "admin123",
+                 "fname": "Digvijay",
+                 "mname": "Tukaram",
+                 "lname": "Tikka"
+                 },
+
 
                 ]
