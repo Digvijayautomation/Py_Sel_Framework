@@ -35,6 +35,8 @@ class TestMain(BaseClass):
         UHP.pim_link().click()
         log.info("PIM Link Clicked")
 
+        assert UHP.pim_link_text()=="PIM"
+
         AE = UHP.add_employee_button()  # Click in done in page object, and returned object of Add Employee
         log.info("Add Employee Clicked")
         AE.enter_name().send_keys(getdata["fname"])

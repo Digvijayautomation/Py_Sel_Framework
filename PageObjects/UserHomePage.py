@@ -15,6 +15,7 @@ class UserHomePage:
     # Methods
     def pim_link_text(self):
         return self.driver.find_element(*UserHomePage.PIM_Link).text
+
     def pim_link(self):
         return self.driver.find_element(*UserHomePage.PIM_Link)
 
