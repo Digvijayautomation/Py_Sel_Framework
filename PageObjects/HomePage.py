@@ -12,14 +12,14 @@ class HomePage:
 
     Username = (By.XPATH, "//input[@name='username']")
     Password = (By.XPATH, "//input[@name='password']")
-    Login_Button = (By.XPATH, "//button[@class='oxd-button oxd-button--medium oxd-button--main orangehrm-login-button']")
+    Login_Button = (
+    By.XPATH, "//button[@class='oxd-button oxd-button--medium oxd-button--main orangehrm-login-button']")
 
     # Used * so that it will deserialize it and consider it as tuple like (By.XPATH, "//span[text()='Sign In']")
     # Methods
 
     def send_username(self):
         return self.driver.find_element(*HomePage.Username)
-
 
     def send_password(self):
         return self.driver.find_element(*HomePage.Password)

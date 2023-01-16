@@ -17,8 +17,7 @@ class TestMain(BaseClass):
         # Object Of HomePage Class
         HP = HomePage(self.driver)
 
-        # Object of HomePage Only created, object for HomePage is created in HomePage's so that i will return UserHomePage,
-        # we are chaining pages functionality wise
+        # Object of HomePage Only created, object for HomePage is created in HomePage's so that i will return UserHomePage, we are chaining pages functionality wise
 
         # Passing Methods From HomePage, And Doing Actions On Them As Per The Need
         HP.send_username().send_keys(getdata["username"])

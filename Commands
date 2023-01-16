@@ -8,5 +8,5 @@
 #For Generating XML Report
 -v --junitxml=report.xml
 
-#If you want to attach log to html file
+#If you want to attach log to html file(If it is not attaching bydefault)
 --capture=tee-sys

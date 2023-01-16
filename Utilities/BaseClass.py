@@ -37,4 +37,5 @@ class BaseClass:
         formatter = logging.Formatter("%(asctime)s :%(levelname)s :%(name)s :%(message)s")
         fileHandler.setFormatter(formatter)
         logger.addHandler(fileHandler)
+
         return logger

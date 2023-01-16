@@ -1,3 +1,4 @@
+import os
 from datetime import time, datetime
 
 import pytest
@@ -20,8 +21,13 @@ def setup(request):
     global driver
 
     browser_name = request.config.getoption("browser_name")
+    options = webdriver.ChromeOptions()
+    options.add_argument('headless')
+
     if browser_name == "chrome":
-        driver = webdriver.Chrome()  # From selenium version 4 we can use it directly
+
+        driver = webdriver.Chrome(options=options)  # Headless mode
+        # driver = webdriver.Chrome()
         driver.implicitly_wait(10)
 
     elif browser_name == "edge":
