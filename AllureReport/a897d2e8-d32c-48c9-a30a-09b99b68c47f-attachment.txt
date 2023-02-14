@@ -1,0 +1,11 @@
+[32mINFO    [0m test_login:test_e2e.py:25 Username Entered as:Admin
+[32mINFO    [0m test_login:test_e2e.py:29 Password Entered as:admin123
+[32mINFO    [0m test_login:test_e2e.py:32 Login Button Clicked
+[32mINFO    [0m test_login:test_e2e.py:35 PIM Link Clicked
+[32mINFO    [0m test_login:test_e2e.py:40 Add Employee Clicked
+[32mINFO    [0m test_login:test_e2e.py:42 Entered First Name
+[32mINFO    [0m test_login:test_e2e.py:44 Entered Middle Name
+[32mINFO    [0m test_login:test_e2e.py:46 Entered Last Name
+[32mINFO    [0m test_login:test_e2e.py:49 Clicked submit
+[32mINFO    [0m test_login:test_e2e.py:52 Clicked Logout Tab
+[32mINFO    [0m test_login:test_e2e.py:54 Clicked Logout Link

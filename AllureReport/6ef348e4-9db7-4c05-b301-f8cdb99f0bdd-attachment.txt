@@ -1,0 +1,3 @@
+[32mINFO    [0m test_login:test_e2e.py:25 Username Entered as:Admin122
+[32mINFO    [0m test_login:test_e2e.py:29 Password Entered as:admin123
+[32mINFO    [0m test_login:test_e2e.py:32 Login Button Clicked
