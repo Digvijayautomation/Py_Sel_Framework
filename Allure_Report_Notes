@@ -2,8 +2,8 @@ Download allure zip and set the path in environment variable
 also add allure-pytest plugin in your pycharm interpreter
 
 pytest -v -s --alluredir="dir path"
-e.g-  pytest -v -s --alluredir="C:\Users\digvijayt\PycharmProjects\Py_Sel_Framework\AllureReport"
+e.g-  pytest -v -s --alluredir="folder_location"
 
 it will create multiple json files in the folder
 
-then from cmd- allure serve  C:\Users\digvijayt\PycharmProjects\Py_Sel_Framework\AllureReport
+then from cmd- allure serve  "folder_location"

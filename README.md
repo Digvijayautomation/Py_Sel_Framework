@@ -16,7 +16,19 @@ With 2 Sets of Data(Valid and Invalid)
 
 5. To run the framework use command:  pytest --html=reports/report.html
 
-6. If we want to rerun only failed testcases automatically after the execution ends, we can use --reruns 2(number of time you want to run)
+6. For Passing browser value from command line --browser_name edge (if not, then it will run on default browser)
 
-7. If we want to run the test cases in parallel we can use -n 4(On how many threads you want to run it on)
+7. If we want to rerun only failed testcases automatically after the execution ends, we can use --reruns 2(number of time you want to run)
 
+8. If we want to run the test cases in parallel we can use -n 4(On how many threads you want to run it on)
+
+
+# For Allure Report
+Download allure zip and set the path in environment variable
+also add allure-pytest plugin in your pycharm interpreter
+
+pytest -v -s --alluredir="dir path"
+
+it will create multiple json files in the folder
+
+then run command - allure serve  "dir path"
