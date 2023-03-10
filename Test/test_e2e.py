@@ -63,6 +63,5 @@ class TestMain(BaseClass):
         return request.param
 
     # Data from Excel(test_dataexcel)
-
     # @pytest.fixture(params=Testdataexcel.data_excel("T1"))  # we can import that class And the name of test case
     # which we want to run def getdata(self, request): return request.param

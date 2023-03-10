@@ -26,8 +26,8 @@ def setup(request):
 
     if browser_name == "chrome":
 
-        driver = webdriver.Chrome(options=options)  # Headless mode
-        # driver = webdriver.Chrome()
+       # driver = webdriver.Chrome(options=options)  # Headless mode
+        driver = webdriver.Chrome()
         driver.implicitly_wait(10)
 
     elif browser_name == "edge":
